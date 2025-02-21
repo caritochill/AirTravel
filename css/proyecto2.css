@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+  }
+  
+  /* Hero Banner Styles */
+  .hero-banner {
+    background: url('https://via.placeholder.com/1920x800') center/cover no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #f0a500;
+  }
+  
+  .hero-content {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .hero-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .flight-search {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .flight-search input {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .flight-search button {
+    padding: 0.8rem 1.5rem;
+    background-color: #f0a500;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .flight-search button:hover {
+    background-color: #d18c00;
+  }
+  
+  /* Featured Destinations Styles */
+  .featured-destinations {
+    background: #f9f9f9;
+    padding: 3rem 2rem;
+  }
+  
+  .destination-cards {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .destination-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .destination-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .destination-card p {
+    padding: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Luxury Services Styles */
+  .luxury-services {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .footer-links {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #f0a500;
+    margin: 0 1rem;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #fff;
+  }
+  

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Travel - Book Your Flight</title>
+  <link rel="stylesheet" href="css/proyecto.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">Air Travel</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#checkin">Check-In</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#information">Information</a></li>
+        <li><a href="#login">Log In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <!-- Flight Search Section -->
+    <section class="flight-search">
+      <h1>Passenger Options</h1>
+      <form>
+        <div class="form-group">
+          <label for="origin">From</label>
+          <input type="text" id="origin" placeholder="City or Airport">
+        </div>
+        <div class="form-group">
+          <label for="destination">To</label>
+          <input type="text" id="destination" placeholder="City or Airport">
+        </div>
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="date" id="date">
+        </div>
+        <button type="submit">Search Flights</button>
+      </form>
+    </section>
+
+    <!-- Lowest Fares Section with Sliding Cards -->
+    <section class="lowest-fares">
+      <h2>Book our lowest fares</h2>
+      <div class="destinations">
+        <button class="slide-left">&#8592;</button>
+        <div class="destination-cards">
+          <div class="destination-card">
+            <img src="destination1.jpg" alt="Destination 1">
+            <p>New York - $299</p>
+          </div>
+          <div class="destination-card">
+            <img src="destination2.jpg" alt="Destination 2">
+            <p>Paris - $399</p>
+          </div>
+          <div class="destination-card">
+            <img src="destination3.jpg" alt="Destination 3">
+            <p>Tokyo - $499</p>
+          </div>
+        </div>
+        <button class="slide-right">&#8594;</button>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <h2>Don’t miss out on anything!</h2>
+      <p>Sign up for our newsletter to find out about exclusive deals and promotions.</p>
+      <form>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="#">Customer Support</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">About Air Travel</a>
+    </div>
+    <div class="social-media">
+      <a href="#" class="social-icon"><img src="facebook-icon.png" alt="Facebook"></a>
+      <a href="#" class="social-icon"><img src="twitter-icon.png" alt="Twitter"></a>
+      <a href="#" class="social-icon"><img src="instagram-icon.png" alt="Instagram"></a>
+      <a href="#" class="social-icon"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+    </div>
+    <p>&copy; 2025 Air Travel. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Air Travel - Find the best destinations and book your next adventure.">
+    <title>Air Travel - Explore Your Next Destination</title>
+    <link rel="stylesheet" href="css/proyecto7.css">
+</head>
+<body>
+    <header>
+        <a href="proyecto7.html" class="logo">
+            <img src="imagenes/airtravel_logo.png" alt="Logo Air Travel">
+            <span>AIR TRAVEL</span>
+        </a>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="check-in.html">Check-in</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="log-in.html">Log in</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" role="banner">
+            <h1>Where can we take you?</h1>
+        </section>
+
+        <section aria-labelledby="destinos-title">
+            <h2 id="destinos-title">Book our lowest fares</h2>
+            <div class="carousel" role="region" aria-label="Destination Carousel">
+                <input type="radio" name="carousel" id="slide1" checked>
+                <input type="radio" name="carousel" id="slide2">
+                <input type="radio" name="carousel" id="slide3">
+
+                <div class="carousel-track">
+                    <!-- Carousel items are here -->
+                </div>
+
+                <div class="carousel-nav" aria-label="Carousel Navigation">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+        </section>
+
+        <section id="subscribe">
+            <h2>Don't miss out on anything!</h2>
+            <p>Subscribe to our newsletter to find out everything before anyone else. Don't miss out!</p>
+            <form action="/suscribirse" method="post">
+                <label for="email" class="visually-hidden">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>&copy; 2025 Air Travel. All rights reserved.</p>
+            <nav aria-label="Footer Navigation">
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>

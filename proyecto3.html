@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Luxury Airlines offers premium travel experiences.">
+  <title>Luxury Airlines - Redefining Travel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/proyecto3.css">
+</head>
+
+<body>
+  <!-- Hero Section with Navigation -->
+  <header class="hero-section">
+    <div class="overlay"></div>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#home" aria-label="Go to home page">Luxury Airlines</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#destinations" aria-label="View our destinations">Destinations</a></li>
+        <li><a href="#services" aria-label="Discover our services">Services</a></li>
+        <li><a href="#about" aria-label="Learn about us">About Us</a></li>
+        <li><a href="#contact" aria-label="Get in touch">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Experience Travel Like Never Before</h1>
+      <p>Luxury, comfort, and elegance await you in the skies.</p>
+      <form class="search-bar" role="search">
+        <label for="from-city" class="sr-only">From: </label>
+        <input type="text" id="from-city" placeholder="From: City or Airport" required>
+        <label for="to-city" class="sr-only">To: </label>
+        <input type="text" id="to-city" placeholder="To: City or Airport" required>
+        <label for="travel-date" class="sr-only">Travel Date: </label>
+        <input type="date" id="travel-date" required>
+        <button type="submit" aria-label="Search flights">Search Flights</button>
+      </form>
+    </div>
+  </header>
+
+  <!-- Featured Destinations Section -->
+  <section id="destinations" class="section destinations">
+    <h2>Exclusive Destinations</h2>
+    <div class="cards-container">
+      <article class="card">
+        <img src="paris.jpg" alt="Paris, the city of lights">
+        <div class="card-content">
+          <h3>Paris</h3>
+          <p>From $799</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="maldives.jpg" alt="Maldives, tropical paradise">
+        <div class="card-content">
+          <h3>Maldives</h3>
+          <p>From $1299</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="tokyo.jpg" alt="Tokyo, a blend of tradition and technology">
+        <div class="card-content">
+          <h3>Tokyo</h3>
+          <p>From $999</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Premium Services Section -->
+  <section id="services" class="section services">
+    <h2>Our Premium Services</h2>
+    <div class="services-container">
+      <article class="service">
+        <img src="lounge-icon.svg" alt="VIP Lounge">
+        <h3>VIP Lounges</h3>
+        <p>Relax in our luxurious airport lounges worldwide.</p>
+      </article>
+      <article class="service">
+        <img src="dining-icon.svg" alt="Gourmet Dining">
+        <h3>Gourmet Dining</h3>
+        <p>Indulge in world-class cuisine crafted by top chefs.</p>
+      </article>
+      <article class="service">
+        <img src="comfort-icon.svg" alt="Spacious Comfort">
+        <h3>Unmatched Comfort</h3>
+        <p>Enjoy spacious seating and personalized amenities.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+      <nav class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact Us</a>
+      </nav>
+      <div class="social-icons">
+        <a href="#"><img src="facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="instagram.svg" alt="Instagram"></a>
+      </div>
+    </div>
+    <p>&copy; 2025 Luxury Airlines. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
